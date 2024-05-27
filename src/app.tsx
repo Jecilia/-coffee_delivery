@@ -1,3 +1,10 @@
+import { ThemeProvider } from 'styled-components'
+import { defaulttheme } from './styles/themes/default'
+
 export function App() {
-  return <h1>ola</h1>
+  return (
+    <ThemeProvider theme={defaulttheme}>
+      <h1>ola</h1>
+    </ThemeProvider>
+  )
 }

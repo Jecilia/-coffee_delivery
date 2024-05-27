@@ -1,4 +1,4 @@
-export const defaulttheme = {
+export const defaultTheme = {
   yellow: ' #DBAC2C ',
   yellowDark: ' #C47F17',
   yellowLight: ' #F1E9C9',

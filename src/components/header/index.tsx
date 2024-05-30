@@ -1,16 +1,20 @@
-import { MapPin } from 'lucide-react'
-
+import { MapPin, ShoppingCart } from 'phosphor-react'
+import logo from '../../assets/logo.svg'
+import { HeaderConatiner } from './styles'
+import { NavLink } from 'react-router-dom'
 export function Header() {
   return (
-    <header>
-      <img src="" alt="" />
-      <nav>
+    <HeaderConatiner>
+      <img src={logo} alt="" />
+      <aside>
         <div>
-          <MapPin />
-          Porto Alegre, RS
+          <MapPin size={24} weight ='fill' />
+          <span>Porto Alegre, RS</span>
         </div>
-        <img src="" alt="" />
-      </nav>
-    </header>
+        <NavLink to={`Checkout`}>
+        <ShoppingCart size={24} weight ='fill'/>
+        </NavLink>
+      </aside>
+    </HeaderConatiner>
   )
 }

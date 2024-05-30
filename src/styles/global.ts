@@ -16,7 +16,7 @@ body{
  font-family: 'Baloo 2', sans-serif;
  
 }
-input ,textarea, button {
+input textarea button span{
   font-family:'Roboto' sans-serif ;
 }
 `

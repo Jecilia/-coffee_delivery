@@ -20,7 +20,7 @@ export function Home() {
               <ItemHero />
               <div>
                 <Timer size={24} weight="fill" />
-                <span>Entrega rápida e rastreada</span>
+                <span>Entrega Rápida e rastreada</span>
               </div>
 
               <div>

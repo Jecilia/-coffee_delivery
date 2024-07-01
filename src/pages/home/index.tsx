@@ -1,4 +1,4 @@
-import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
+import { Coffee, Package, Timer } from 'phosphor-react'
 import hero from '../../assets/hero.svg'
 import herobg from '../../assets/hero-bg.svg'
 import { HeroContainer, HeroContent, Item } from './styles'
